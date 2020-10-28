@@ -1,0 +1,28 @@
+{
+  "name": "goit-js-hw-11-color-switch",
+  "version": "1.0.0",
+  "description": "GoIT JS Homework 11 Color Switch",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "predeploy": "npm run build -- --public-url=/goit-js-hw-11-color-switch/",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otpauk/goit-js-hw-11-color-switch.git"
+  },
+  "keywords": [],
+  "author": "Oleh Pauk <otpauk@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/otpauk/goit-js-hw-11-color-switch/issues"
+  },
+  "homepage": "https://otpauk.github.io/goit-js-hw-11-color-switch",
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  }
+}
